@@ -67,11 +67,10 @@
           <td>{{$item->tag->tag}}</td>
           <td>
           <div class="row">
-        <a href="/modifier-image/{{$item->id}}">
             
+        <a href="/modifier-image/{{$item->id}}">
             <button class="btn btn-success "><i class="fas fa-edit"></i></button>
         </a>
-        
 
        <form action="/supprimer-image/{{$item->id}}" method="post">
          @csrf
@@ -84,7 +83,7 @@
       
       </tbody>
           @endforeach
+
       </table>
-    
 
 @stop

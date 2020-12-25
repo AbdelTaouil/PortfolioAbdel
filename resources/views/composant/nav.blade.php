@@ -5,6 +5,7 @@
       <li><a href="#hero"><i class="fas fa-home"></i><span>Home</span></a></li>
       <li><a href="#about"><i class="far fa-address-card"></i><span>About</span></a></li>
       <li><a href="#resume"><i class="far fa-file"></i><span>Resume</span></a></li>
+      <li><a href="#portfolio"><i class="fas fa-trophy"></i></i> <span>Projet</span></a></li>
       <li><a href="#services"><i class="fas fa-server"></i></i> <span>Services</span></a></li>
     </ul>
   </nav>

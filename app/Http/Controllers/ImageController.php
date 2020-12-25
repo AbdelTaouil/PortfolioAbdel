@@ -41,6 +41,7 @@ class ImageController extends Controller
     {
         $tag =  Tag::all();
         $img =  Image::all();
+        Image::simplePaginate(2);
         $counter = 1;
         return view('back/Image', compact('tag','img','counter'));
     }
